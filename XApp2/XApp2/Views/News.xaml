@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XApp2.Views.News"   x:Name="NewsPage" Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            <!-- Это уходит в меню
+            <ListView  HorizontalOptions="CenterAndExpand" Margin="10,0,10,0"  x:Name="listView" VerticalOptions="StartAndExpand"  >
+
+                <ListView.ItemTemplate>
+                    
+                    <DataTemplate>
+                        <ViewCell>
+                        <Grid  >
+                            <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="2*"/>
+
+                                </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" WidthRequest="50" HeightRequest="50"  Source="{Binding Path=ImagePath}" />
+                                <Label Text="{Binding Path=TopName}" Grid.Column="1" Grid.Row="0" FontAttributes="Bold"/>
+                            <Editor   Text="{Binding Path=LowName}" Grid.Column="1" Grid.Row="1"  IsEnabled="False"/>
+                            
+
+                        </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+-->
+            
+            <Label Text="Newswertrwet Page" />
+            
+
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
